@@ -1,4 +1,4 @@
 _**Primeira versão**_
 
 - release:
-    - _Modificado limpeza.sh_
+    - _Otimizador para Ubuntu limpeza.sh_

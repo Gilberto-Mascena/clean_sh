@@ -7,3 +7,6 @@ sudo rm -rf /home/$USER/.local/share/Trash/expunged/*
 sudo rm -rf /home/$USER/.local/share/Trash/info/*
 sudo /sbin/fstrim --all || true
 sudo journalctl --vacuum-time=2d
+echo "\nLimpeza e atualização concluída!"
+echo "O sistema será reiniciado em 1 minuto..."
+shutdown -r +1

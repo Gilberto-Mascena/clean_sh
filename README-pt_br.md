@@ -6,6 +6,8 @@
 ![release](https://img.shields.io/github/release-date/Gilberto-Mascena/clean_sh)
 ![size](https://img.shields.io/github/repo-size/Gilberto-Mascena/clean_sh)
 
+[Português Brasileiro](https://github.com/Gilberto-Mascena/clean_sh/blob/main/README-pt_br.md) | [English](https://github.com/Gilberto-Mascena/clean_sh/blob/main/README.md)
+
 # *Executável de limpeza e atualização do sistema para Ubuntu*
 
 ## 🚀 *Sobre o projeto*

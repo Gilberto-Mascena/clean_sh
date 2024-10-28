@@ -6,10 +6,25 @@
 ![release](https://img.shields.io/github/release-date/Gilberto-Mascena/clean_sh)
 ![size](https://img.shields.io/github/repo-size/Gilberto-Mascena/clean_sh)
 
-# *Executável de limpeza de sistema para Ubuntu*
+# *Executável de limpeza e atualização do sistema para Ubuntu*
+
+## 🚀 *Sobre o projeto*
+
+- _*Limpeza de pacotes*_
+- _*Atualização de pacotes*_
+- _*Limpeza da lixeira do usuário*_
+- _*Desfragmentação do sistema de arquivos*_
+- _*Limpeza dos logs do sistema*_
+- _*Reinicia automaticamente o sistema após 30 segundos*_
+
+## *Como executar o script?*
+
+- _***[Baixe a última release clicando aqui](https://github.com/Gilberto-Mascena/clean_sh/releases)***_
+    - _*Nvegue até o diretório ```clean_ubuntu_desktop```, ou abra um terminal nesse direttório e digite ```./limpeza.sh``` e precione enter, digite sua senha de usuário*_
+        - _*Agora é só aguardar, o sitema ao final ira reiniciar automaticamente*_
 
 ## *Tecnologia usada*
-- Shell  
+- _ShellScript_  
 
 ## *Agradecimentos*
 
@@ -17,6 +32,6 @@
 
 ## *Licença* 
 
-*The* [*MIT License*](./LICENSE.md) (*MIT*)
+[*Licença MIT*](./LICENSE.md) (*MIT*)
 
-*Copyright :copyright: 2024* 
+### Gilberto | Dev _2024_

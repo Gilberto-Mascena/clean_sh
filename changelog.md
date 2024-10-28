@@ -1,5 +1,5 @@
-_**Segunda versão**_
+## _*Changes in this Version*_
 
-- release:
-    - _Otimizador para Ubuntu limpeza.sh_
-    - _Adicionado função de reinicio automático em 1 minuto_
+- _**Third version**_
+    - _*Added comments for each command*_
+    - _*Added 30 second countdown timer*_

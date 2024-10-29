@@ -26,12 +26,12 @@
 ### *For Ubuntu Desktop*
 
 - _*Navigate to the ```clean_ubuntu_desktop``` directory, or open a terminal in that directory and type ```./limpeza_desktop.sh``` and press enter, type your user password*_
-        - _*Now just wait, the system will restart automatically at the end*_
+    - _*Now just wait, the system will restart automatically at the end*_
 
 ### *For WSL*
 
 - _*Navigate to the ```clean_ubuntu_wsl``` directory, or open a terminal in that directory and type ```./limpeza_wsl.sh``` and press enter, type your user password*_
-        - _*Now just wait, the system will restart automatically at the end*_
+    - _*Now just wait for the conclusion!*_
 
 ## *Technology used*
 - _ShellScript_

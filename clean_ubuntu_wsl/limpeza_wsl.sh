@@ -19,3 +19,6 @@ sudo /sbin/fstrim --all || true
 
 # Limpeza dos logs do sistema
 sudo journalctl --vacuum-time=2d
+
+echo " "
+echo "Limpeza e atualização concluída com sucesso!"

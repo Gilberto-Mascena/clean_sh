@@ -22,7 +22,15 @@
 ## *How to run the script?*
 
 - _***[Download the latest release by clicking here](https://github.com/Gilberto-Mascena/clean_sh/releases)***_
-    - _*Navigate to the ```clean_ubuntu_desktop``` directory, or open a terminal in that directory and type ```./limpeza.sh``` and press enter, type your user password*_
+
+### *For Ubuntu Desktop*
+
+- _*Navigate to the ```clean_ubuntu_desktop``` directory, or open a terminal in that directory and type ```./limpeza_desktop.sh``` and press enter, type your user password*_
+        - _*Now just wait, the system will restart automatically at the end*_
+
+### *For WSL*
+
+- _*Navigate to the ```clean_ubuntu_wsl``` directory, or open a terminal in that directory and type ```./limpeza_wsl.sh``` and press enter, type your user password*_
         - _*Now just wait, the system will restart automatically at the end*_
 
 ## *Technology used*

@@ -22,8 +22,16 @@
 ## *Como executar o script?*
 
 - _***[Baixe a última release clicando aqui](https://github.com/Gilberto-Mascena/clean_sh/releases)***_
-    - _*Nvegue até o diretório ```clean_ubuntu_desktop```, ou abra um terminal nesse direttório e digite ```./limpeza.sh``` e precione enter, digite sua senha de usuário*_
-        - _*Agora é só aguardar, o sitema ao final ira reiniciar automaticamente*_
+   
+   ### *Para Ubuntu Desktop*
+
+- _*Navegue até o diretório ```clean_ubuntu_desktop```, ou abra um terminal nesse diretório e digite ```./limpeza_desktop.sh``` e pressione enter, digite sua senha de usuário*_
+- _*Agora é só esperar, o sistema será reiniciado automaticamente no final*_
+
+### *Para WSL*
+
+- _*Navegue até o diretório ```clean_ubuntu_wsl```, ou abra um terminal nesse diretório e digite ```./limpeza_wsl.sh``` e pressione enter, digite sua senha de usuário*_
+- _*Agora é só esperar a conclusão!*_
 
 ## *Tecnologia usada*
 - _ShellScript_  

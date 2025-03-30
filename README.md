@@ -38,7 +38,7 @@ _```cd path/to/clean_ubuntu_desktop```_
 _3. Run the script:_
 
 ```
-./clean_desktop.sh
+./limpeza_desktop.sh
 ```
 _4. The system will automatically restart at the end._
 
@@ -53,7 +53,7 @@ _```cd path/to/clean_ubuntu_wsl```_
 _3. Run the script:_
 
 ```
-./clean_wsl.sh
+./limpeza_wsl.sh
 ```
 
 _4. Please wait for completion!_

@@ -1,12 +1,14 @@
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Gilberto-Mascena/clean_sh)
-[![license](https://img.shields.io/github/license/Gilberto-Mascena/clean_sh)](https://github.com/Gilberto-Mascena/clean_sh/blob/main/LICENSE.md)
-[![GitHub stars](https://img.shields.io/github/stars/Gilberto-Mascena/clean_sh)](https://github.com/Gilberto-Mascena/clean_sh/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/Gilberto-Mascena/clean_sh)](https://github.com/Gilberto-Mascena/clean_sh/issues)
-[![tag](https://img.shields.io/github/v/release/Gilberto-Mascena/clean_sh?include_prereleases)](https://github.com/Gilberto-Mascena/clean_sh/releases)
-![release](https://img.shields.io/github/release-date/Gilberto-Mascena/clean_sh)
-![size](https://img.shields.io/github/repo-size/Gilberto-Mascena/clean_sh)
 
 [Português Brasileiro](https://github.com/Gilberto-Mascena/clean_sh/blob/main/README-pt_br.md) | [English](https://github.com/Gilberto-Mascena/clean_sh/blob/main/README.md)
+
+![Status de Manutenção](https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge)
+[![GitHub Actions Status](https://img.shields.io/github/actions/workflow/status/Gilberto-Mascena/clean_sh/build.yml?style=for-the-badge)](https://github.com/Gilberto-Mascena/clean_sh/actions)
+[![Licença](https://img.shields.io/github/license/Gilberto-Mascena/clean_sh?style=for-the-badge)](https://github.com/Gilberto-Mascena/clean_sh/blob/main/LICENSE.md)
+[![Estrelas no GitHub](https://img.shields.io/github/stars/Gilberto-Mascena/clean_sh?style=for-the-badge)](https://github.com/Gilberto-Mascena/clean_sh/stargazers)
+[![Problemas no GitHub](https://img.shields.io/github/issues/Gilberto-Mascena/clean_sh?style=for-the-badge)](https://github.com/Gilberto-Mascena/clean_sh/issues)
+[![Versão do Repositório](https://img.shields.io/github/v/release/Gilberto-Mascena/clean_sh?include_prereleases&style=for-the-badge)](https://github.com/Gilberto-Mascena/clean_sh/releases)
+![Data de Lançamento](https://img.shields.io/github/release-date/Gilberto-Mascena/clean_sh?style=for-the-badge)
+![Tamanho do Repositório](https://img.shields.io/github/repo-size/Gilberto-Mascena/clean_sh?style=for-the-badge)
 
 # *Executável de limpeza e atualização do sistema para Ubuntu*
 

@@ -10,40 +10,66 @@
 ![Data de Lançamento](https://img.shields.io/github/release-date/Gilberto-Mascena/clean_sh?style=for-the-badge)
 ![Tamanho do Repositório](https://img.shields.io/github/repo-size/Gilberto-Mascena/clean_sh?style=for-the-badge)
 
-# *System cleaning and updating executable for Ubuntu*
+# 🛠️ *Clean_SH – Ubuntu Cleanup and Update Script*
 
 ## 🚀 *About the project*
+#### _Clean_SH is an automated script for cleaning and updating the Ubuntu system, whether on the Desktop or WSL. It performs essential tasks to keep your system organized and efficient, including:_
 
-- _*Package cleaning*_
-- _*Package updating*_
-- _*User trash cleaning*_
-- _*File system defragmentation*_
-- _*System log cleaning*_
-- _*Automatically restart the system after 30 seconds*_
+✅ _Removing unnecessary packages_\
+✅ _Updating installed packages_\
+✅ _Cleaning the user's trash_\
+✅ _Defragmenting the file system_\
+✅ _Deleting old system logs_\
+✅ _Automatic restart after 30 seconds (Desktop only)_
+## 📥 *How to Run*
 
-## *How to run the script?*
+### 🔽 Download the Latest Version
 
-- _***[Download the latest release by clicking here](https://github.com/Gilberto-Mascena/clean_sh/releases)***_
+### 👉 _***[Click here to download the latest release](https://github.com/Gilberto-Mascena/clean_sh/releases)***_
 
-### *For Ubuntu Desktop*
+### 🖥️ _Ubuntu Desktop_
 
-- _*Navigate to the ```clean_ubuntu_desktop``` directory, or open a terminal in that directory and type ```./limpeza_desktop.sh``` and press enter, type your user password*_
-    - _*Now just wait, the system will restart automatically at the end*_
+_1. Open a terminal as ROOT_
 
-### *For WSL*
+_2. Navigate to the clean_ubuntu_desktop directory:_
 
-- _*Navigate to the ```clean_ubuntu_wsl``` directory, or open a terminal in that directory and type ```./limpeza_wsl.sh``` and press enter, type your user password*_
-    - _*Now just wait for the conclusion!*_
+_```cd path/to/clean_ubuntu_desktop```_
 
-## *Technology used*
-- _ShellScript_
+_3. Run the script:_
 
-## *Thanks*
+```
+./clean_desktop.sh
+```
+_4. The system will automatically restart at the end._
 
-- [*Fernando Anselmo*](https://www.youtube.com/watch?v=YumXVt3sMfY)
+### 🖥️ _WSL (Windows Subsystem for Linux)_
 
-## *License* 
+_1. Open a terminal as ROOT_
 
-*The* [*MIT License*](./LICENSE.md) (*MIT*)
+_2. Navigate to the clean_ubuntu_wsl directory:_
 
-### Gilberto | Dev _2024_ 
+_```cd path/to/clean_ubuntu_wsl```_
+
+_3. Run the script:_
+
+```
+./clean_wsl.sh
+```
+
+_4. Please wait for completion!_
+
+## 🛠️ _Technology Used_
+
+_Shell Script_
+
+## 🎉 _Thanks_
+
+_Special thanks to:_
+
+💡 [_Fernando Anselmo for the support and inspiration!_ 😊](https://www.youtube.com/watch?v=YumXVt3sMfY)
+
+## 📜 *License*
+
+*This project is licensed under the MIT License. See more details at:* [_LICENSE.md_](./LICENSE.md)
+
+### Gilberto | Dev _2024_

@@ -1,24 +1,47 @@
 #!/bin/bash
 
-# Limpeza de pacotes
-sudo apt autoclean -y && sudo apt autoremove -y
+# Habilita modo seguro: interrompe a execução em erros críticos
+set -e
+
+# Verifica se o script está sendo executado como root
+if [[ "$EUID" -ne 0 ]]; then 
+    echo "Este script precisa ser executado como root. Use sudo!"
+    exit 1
+fi
+
+echo "Iniciando a limpeza e atualização do sistema..."
+
+# Limpeza de pacotes obsoletos
+echo "Removendo pacotes desnecessários..."
+apt autoclean -y && apt autoremove -y
 
 # Atualização de pacotes
-sudo apt update && sudo apt upgrade -y
+echo "Atualizando pacotes do sistema..."
+apt update && apt upgrade -y
 
 # Atualização de pacotes Snap
-sudo snap refresh
+if command -v snap &> /dev/null; then 
+    echo "Atualizando pacotes Snap..."
+    snap refresh
+fi
 
 # Limpeza da lixeira do usuário
-sudo rm -rf /home/$USER/.local/share/Trash/files/*
-sudo rm -rf /home/$USER/.local/share/Trash/expunged/*
-sudo rm -rf /home/$USER/.local/share/Trash/info/*
+echo "Esvaziando a lixeira..."
+TRASH_PATHS=( 
+    "/home/$SUDO_USER/.local/share/Trash/files/*"
+    "/home/$SUDO_USER/.local/share/Trash/expunged/*"
+    "/home/$SUDO_USER/.local/share/Trash/info/*"
+)
+for path in "${TRASH_PATHS[@]}"; do 
+    rm -rf "$path" || true
+done
 
-# Desfragmentação do sistema de arquivos
-sudo /sbin/fstrim --all || true
+# Desfragmentação do sistema de arquivos (SSD-friendly)
+echo "Otimizando o sistema de arquivos..."
+fstrim --all || true 
 
-# Limpeza dos logs do sistema
-sudo journalctl --vacuum-time=2d
+# Limpeza de logs antigos (mantém os últimos 2 dias)
+echo "Removendo logs antigos..."
+journalctl --vacuum-time=2d 
 
-echo " "
-echo "Limpeza e atualização concluída com sucesso!"
+echo -e "\n✅ Limpeza e atualização concluídas com sucesso!"
